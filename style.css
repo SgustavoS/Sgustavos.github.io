@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+section{
+    height: 85vh;
+}
+body {
+    background-color: rgb(80, 113, 146);
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    background: linear-gradient(to right, rgb(190, 143, 98), rgb(0, 179, 255));
+    margin: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(193, 197, 186);
+    padding: 5px;
+    box-shadow: 0px 2px 5px rgb(170, 166, 166);
+}
+h3{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+h2{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(6, 255, 213);
+    text-align: center;
+    margin-top: 50px;
+    padding: 200px;
+    box-shadow: 15px 15px 17px rgb(187, 198, 214);
+    border-radius: 100px;s
+}
+.contenedor_1 {
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(255, 179, 0);
+    text-align:center;
+    margin-top: 50px;
+    padding: 200px;
+    box-shadow: 15px 15px 17px rgb(187, 198, 214);
+    border-radius: 100px;
+}
+.contenedor_2 {
+    width: 110%;
+    max-width: 385px;
+    margin: 0 auto;
+    background-image: url("https://media.istockphoto.com/id/513822190/es/foto/blanco-greenboard-espacio-vac%C3%ADo-con-tiza-rastros.jpg?s=612x612&w=0&k=20&c=huVXYdrfwADv3lnrDOd2VRnSpXkQKqUJ7dnGDpZz5Gs=");
+    text-align:center;
+    margin-top: 80px;
+    padding: 80px;
+    box-shadow: 15px 15px 17px rgb(187, 198, 214);
+    border-radius: 200px;
+}
+
+@media (max-width: 1000px) {
+    .contenedor {
+        width: 200%;
+    }
+}
+
+h2,
+p {
+    color: rgb(17, 22, 37);
+}
+
+h2 span,
+p span {
+    color: rgb(119, 137, 172);
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+button {
+    border: none;
+    background: linear-gradient(to right, rgb(11, 24, 49), rgb(7, 94, 224));
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all ease 400ms;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav ul li{
+    border: none;
+    margin: 20px;
+
+    background: linear-gradient(to right,rgb(0, 179, 255), rgb(190, 143, 98));
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all ease 400ms;
+}
+header{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    position: sticky;
+    top: 0;
+    background:linear-gradient(to right, rgb(190, 143, 98),rgb(0, 179, 255)); 
+
+}
